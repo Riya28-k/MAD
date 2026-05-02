@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/primary_color">
+
+    <!-- App Logo/Icon -->
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Help"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/appTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Assistance at Your Fingertips"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <!-- Loading Progress -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:indeterminate="true" />
+
+</LinearLayout>
