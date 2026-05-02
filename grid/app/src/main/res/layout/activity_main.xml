@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:columnCount="2">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Registration Form"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <!-- Name -->
+    <TextView
+        android:text="Name"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:inputType="textPersonName"/>
+
+    <!-- Email -->
+    <TextView
+        android:text="Email"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:inputType="textEmailAddress"/>
+
+    <!-- Mobile -->
+    <TextView
+        android:text="Mobile"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:inputType="phone"/>
+
+    <!-- Course -->
+    <TextView
+        android:text="Course"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/etCourse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:inputType="text"/>
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</GridLayout>
